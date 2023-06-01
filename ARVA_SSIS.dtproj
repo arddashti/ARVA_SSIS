@@ -26,26 +26,62 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">POWERBI</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwGaNc87pLEeMwLKD3VScmQAAAAACAAAAAAADZgAAwAAAABAAAACF/G2gOZgSwlukEWjHnEtuAAAAAASAAACgAAAAEAAAACxKNp5BJuEHcqzzvWlsZzWIAAAAXnsftqEVglfJoTfl3nYKXm7wvlKgf53UIRM3LJSNCZ5FCiUxJ0vaMhQd0N6fDmDXFyx6auTOVwemVrhSQvOLRyXcNqrfM2PCLmbbhy2h96HhdugzOp9sSIUogF7ogTWrpzDV5RASjUATWh9BrVPeSIA1Yk9TuvTfVYja8iy/GWdnN2fYLCPi/BQAAACM8f2bu+m9u2wAXEONOV/POGK6yg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwGaNc87pLEeMwLKD3VScmQAAAAACAAAAAAADZgAAwAAAABAAAAB1Z86PGjywYTsSc68Qm4rLAAAAAASAAACgAAAAEAAAAF0x0ZnHAK8JJ+b+dT3SA4WIAAAA+z+oNfbkZtUrWLbt1+Fp54k03PPyrkgmlAIN4qFbX/cQUNBjmiO7lgpIL2ajVcWCFMi5O5TU6ZAGzcAaFD8Er6ntmjQ4Z113UQfIcqj/xs5XcuoCbfC/3D18h2xOpPaYFjdKmA7YsdGECvzsQXMrjQ2jTFqpZTeHX1VWyXy9c+r5C2tIuy6s8xQAAAAK69VQPNYDzoi2yMdoi5TmfGppBw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="Package.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="2_RFM.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="3_OLAP.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="4_Empty_E_Daily_backup_folder.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters />
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="Package.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="2_RFM.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{CA61208F-C985-4A71-9433-CC2BC289296B}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{E0550C41-1521-4E67-9653-0E5C5987AABC}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">2_RFM</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">4</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{7358F807-DE0D-432B-91E5-46FDA3BB0FF0}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="3_OLAP.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{8068324D-03E1-4A33-A751-CDE1D34E03B4}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{359BA3D4-FA3E-41AE-8219-F07A26A78134}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{3DC9034C-B3B7-47B2-BE71-AE1E221E7924}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="4_Empty_E_Daily_backup_folder.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{AC7A6CF7-074E-402B-B8A9-18FABA4D98E9}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{F11D302C-4E96-4D2F-96F8-3C03886CEDD9}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
