@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "ARVA_SSIS", "ARVA_SSIS.dtproj", "{A715FA6C-43E0-4101-A54C-8B6FDB411850}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A715FA6C-43E0-4101-A54C-8B6FDB411850}.Development|Default.ActiveCfg = Development
+		{A715FA6C-43E0-4101-A54C-8B6FDB411850}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E9E563A-9B85-4152-BC5C-382A9EC42C49}
+	EndGlobalSection
+EndGlobal
