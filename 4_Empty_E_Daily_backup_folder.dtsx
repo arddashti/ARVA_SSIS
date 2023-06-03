@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{F11D302C-4E96-4D2F-96F8-3C03886CEDD9}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{BE325406-53C0-4830-9C3F-EA075E108904}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -30,7 +30,8 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <ExecuteProcessData
-          Executable="F:\bat file\4_Empty_E_Daily_backup_folder.bat" />
+          Executable="F:\bat file\4_Empty_E_Daily_backup_folder.bat"
+          TimeOut="300" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>

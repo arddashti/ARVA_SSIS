@@ -26,13 +26,14 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">POWERBI</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwGaNc87pLEeMwLKD3VScmQAAAAACAAAAAAADZgAAwAAAABAAAAB1Z86PGjywYTsSc68Qm4rLAAAAAASAAACgAAAAEAAAAF0x0ZnHAK8JJ+b+dT3SA4WIAAAA+z+oNfbkZtUrWLbt1+Fp54k03PPyrkgmlAIN4qFbX/cQUNBjmiO7lgpIL2ajVcWCFMi5O5TU6ZAGzcAaFD8Er6ntmjQ4Z113UQfIcqj/xs5XcuoCbfC/3D18h2xOpPaYFjdKmA7YsdGECvzsQXMrjQ2jTFqpZTeHX1VWyXy9c+r5C2tIuy6s8xQAAAAK69VQPNYDzoi2yMdoi5TmfGppBw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwGaNc87pLEeMwLKD3VScmQAAAAACAAAAAAADZgAAwAAAABAAAADP1r2betkCqoOkTNyjaTpoAAAAAASAAACgAAAAEAAAAOv0FufgyysqkQ2Gxeps0haIAAAALWZcMtYZzkK/5a2qeTRzgZVtTpge+qzJsUBrrSoh/Fqe5Zh3Yd1C7cC0yd6LDi99nX7fCIoh0fwauvYpv/n+MlBMuv8twbiID8KSmC/OOumCj+lniIG8DjtNqyex/W04qZrpQpx7LL9YRhW9J4j8ejBkdxiZTmbO94pk07AoAXhrF/nN7aIkLhQAAACTQi6wbLGdgGOmOg+z1AYj4ZjAbQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
           <SSIS:Package SSIS:Name="2_RFM.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="3_OLAP.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="4_Empty_E_Daily_backup_folder.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="5_massage_bot.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -82,6 +83,23 @@
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{F11D302C-4E96-4D2F-96F8-3C03886CEDD9}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="5_massage_bot.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{8E0E1261-FF4A-4457-A7C9-0F1C87911BB5}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{D99ED4CD-C320-40EA-B8E7-B14926647C67}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>

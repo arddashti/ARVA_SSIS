@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="2_RFM"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{7358F807-DE0D-432B-91E5-46FDA3BB0FF0}">
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{3B0055D4-9AFC-4443-A984-DD5AA8A5063A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -30,7 +30,8 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <ExecuteProcessData
-          Executable="F:\bat file\2_RFM.bat" />
+          Executable="F:\bat file\2_RFM.bat"
+          TimeOut="300" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
