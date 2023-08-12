@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{178731C5-FC48-47BE-8675-7CFB3574E316}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{2716CE38-C270-44A2-9AB1-D309238C57A6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -30,7 +30,8 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <ExecuteProcessData
-          Executable="F:\bat file\10_nilram_BSC.bat" />
+          Executable="F:\bat file\10_nilram_BSC.bat"
+          TimeOut="360" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
