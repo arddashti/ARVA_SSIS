@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">POWERBI</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdKxJRuzW9kq6AGEOn9AYiQAAAAACAAAAAAADZgAAwAAAABAAAAAybhBvyrUi1dkEHtJMCjqgAAAAAASAAACgAAAAEAAAAHoJSyCRzQSFu/MO2MTFpSOIAAAAfzjaTRw/qb2rUIalBeF8s+0+T+iYTyMH1VLBmcwlNhOCI9zJ+ocxiWnzNY6Wi+BYS+qsXFONl/SuBX9TRdfGQIDKKv2E9DnahuI4f+J6HBpkdJoUs0IPdYSFY1IvTIeKZE9fl2OgCbI6FWMJSewDBuNAC1uW5MbYaLmEnZDnGk9oogg0Z0uKnhQAAACgcwbHAZAyZoO8+HSu0cE7A5g2ew==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfnrGNtWRPUCAH1ZMzznBbQAAAAACAAAAAAADZgAAwAAAABAAAACyqVcVG3gzgGXji+dORsfVAAAAAASAAACgAAAAEAAAAKphwm5J20X57nvDL63fX/KIAAAAbLI7XAIsL7ZlOK+ssYlNtyfvP9uFu6CDE8MkxH3Dm60eT8NXxyrOzAoTazxf+feS/ZiWkDO/qFs/GDfDhmZu1N90spQDBJgn3FftZVcMmriMz9hMQgXa2JihgR+tNNb8ESjUash+tMwIyqcfdSNA3NGJQoVjiP76X/PqUZEhhxFcrjOfSrRLnhQAAADEYsrjQBsF7OCEyW2+7jKbDqGBIw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -41,6 +41,7 @@
           <SSIS:Package SSIS:Name="24_back_up.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="12_Google_Search_Console_API.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="11_google_analytics.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="07_01_holiday_in_calendar.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -226,6 +227,23 @@
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{0FE3C2AA-CE37-440F-8D1D-F20E45768FE0}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="07_01_holiday_in_calendar.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{2F35E958-FAED-487C-8E91-2BCDD1D40707}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{17DC7E22-857C-47A5-8AE2-3AFB25F34A50}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
