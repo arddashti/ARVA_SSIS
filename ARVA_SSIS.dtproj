@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">POWERBI</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfnrGNtWRPUCAH1ZMzznBbQAAAAACAAAAAAADZgAAwAAAABAAAAAxIlcv9fqQdaRD9/G2c1gLAAAAAASAAACgAAAAEAAAAKlkJpGSSf1ixW6KfUXxSEuIAAAAEJ23TXKgRBCbuR1trYjZzvgBPkiXYfSt1k4vjFY633bn50Ie7cXjbSzbSUgCC3vOTuI0DdRKiuHUyhAUKgKGP/GCAYVo3yN765UikuRvpq7+aKm5QSytEQC7BhoiqZr9fTAesnpgWN7yPvGTa+sLB/IIoAXWRCeTU51IxQswkhaogeMpFbuYPhQAAACZy7wVb+xlxYjU+3y9PkTrSvs+eQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfnrGNtWRPUCAH1ZMzznBbQAAAAACAAAAAAADZgAAwAAAABAAAAC5J/Ta3Nbyz2ClxV3QTGrJAAAAAASAAACgAAAAEAAAAF2HnjO03fHJRH86sPIBnhuIAAAA5gfC4jKEnEvM7XNXTwg5i1aRggAXAKClYRl7FzaLcy5M4iYngq3IvHd9hzkhD8wLsOn/zR6YB/BpIc6McrQOzKs2/KJOBW3f/o9X26A5cTN6W48IvN/w5dtwmcMneHuuSkOw56zV+vFBq4t+MzU52S/2nF3s8QoYr5fgAebzgZMVhx6XFLIXexQAAADRXUkgTBFzkWsrnyfXuNe9mb8Mxw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -44,6 +44,7 @@
           <SSIS:Package SSIS:Name="07_01_holiday_in_calendar.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="13_visitor.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="14_oracle_table.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="15_HR_Parsa.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -280,6 +281,23 @@
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{30672A96-EA55-4528-8693-0524C8A5D36D}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="15_HR_Parsa.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{443CFBEC-391C-4CF9-853A-EC7F463CB5AF}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{FF0D4C30-6FE8-4FD1-934D-BC2CB3B1701C}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
