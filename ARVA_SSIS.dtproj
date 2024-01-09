@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">POWERBI</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfnrGNtWRPUCAH1ZMzznBbQAAAAACAAAAAAADZgAAwAAAABAAAADAnr4LeR+brcGEsOYLjKQhAAAAAASAAACgAAAAEAAAAOyqJbSgugE9+/cDtBQ7yLaIAAAAzlw8mN3TvpSFoOm6uvTrjs915rYutABeydDzLj3jpgor165odl9kCLR14xLsZcH6jlN2ojGZ5gB31orSq4wPNlxb29OA3GBYdn4dBQ9CxTsqtOnk5GRqWtlPsO5RcMECZcsyAjvo1C48a4c9cIH5ip5NuZA8mB2LERq1nXqQXa3vSvZgk4LY/xQAAAB9/H8hmGEVi3tPG5bkPEI2opav9g==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfHGe/dmIakKHxPREi5XKHwAAAAACAAAAAAADZgAAwAAAABAAAACyq2L6iBI35aStxACeTaxuAAAAAASAAACgAAAAEAAAANOMNUNXjG7qlWH66cO1tP+IAAAA1IVWccTGI0dTp+3fhTVtBIVUEuuX+iw0J3QEtcQ4qlZFrU/KXO5EAMJDJwlzk7JIcUzvFRVItNnKPx3UsZqZWSBSrVxPEIedvU0lcFcJblYQv1c9vGTOmNLHBFDUkSctVr3KzeKu3i8zqSwT9rQqqIR0hk7ze5Gzt7H64hWvZsFIpv5hde1tsBQAAABxaBbMmP/v1f9cxEl6+72XiEIyMA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -47,6 +47,7 @@
           <SSIS:Package SSIS:Name="15_HR_Parsa.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="16_dollar_price.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="17_move_meeting_data_to_google_sheet.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="61_bourseview_dollar_price.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -334,6 +335,23 @@
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{B4815C45-2683-49EB-A826-8BB86DF443F1}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="61_bourseview_dollar_price.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{6AF870A7-CE28-4BF7-81A5-EE3177C5C917}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{F63443A9-1E24-4C86-B509-B8F7E6609975}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
