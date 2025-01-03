@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">POWERBI</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfHGe/dmIakKHxPREi5XKHwAAAAACAAAAAAADZgAAwAAAABAAAAD+C3ZIQJ2FtP6lDKQb8e/7AAAAAASAAACgAAAAEAAAAK/zGMd4WtZL6a1VlqlRCwCIAAAAEznqjYvRhvvtt+/F5Yc0D+wQLp6+10AAUAMAFk93MnDBakrIXq61gGS7NmosuPFZVorvflVRITWfzyrnztce3UcXXpjNXc9c/8GLTpd4DuJvHblM1P0Esvssx8ZKSlU0cfcRraIYwICNgQLSqYpK7EZv363XOuhakTkFsTn4ERR4aoi/7dmePxQAAAC0W1bbAkLQeD0rjySPJoyK34x0xQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcs+1zfsgmEK3Sn8eUq5amAAAAAACAAAAAAADZgAAwAAAABAAAACOXGmRZhGSovEPukc1scmFAAAAAASAAACgAAAAEAAAAG+WpT+UBb548MXxohevYhOIAAAAmsLB037PBTgVNjpnnRHJfoEzV4SrfGceANxOjsx4hePPlgG4eMHm3yAyQ7/Aqj8KqZyXSo6wE6M5ulfbQI/wY9FT4LSN/SlQ6XbPyecnYyzGf8I/qwXUlNOkEOmU6rQvk57zvDjZNYbPnOVHvbkAAHwsC8aXqnpmxSpvHWH8GYQ0ULk/C1gyLBQAAACpoGfmWOo38mTxxDveOq11RBE8pQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -49,6 +49,7 @@
           <SSIS:Package SSIS:Name="17_move_meeting_data_to_google_sheet.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="61_bourseview_dollar_price.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="3_OLAP_INV.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="19_sorooshan.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -370,6 +371,23 @@
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{29A8DAEE-605D-4D15-981C-A20CC451A4F5}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="19_sorooshan.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{ED6563C9-BB53-44D5-9217-CD8AE3BA7EC7}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{CF413CB1-F52A-47D3-92D4-27CDC5192617}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
