@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{F0A70701-D353-4A65-ACE0-EC0CEFE33A1E}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{87BC7FFE-DD55-4C83-941C-A06EE837349A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2nxrebubX0OB9GUffPk6nwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAjyqsCIbgq/3Lu0Ovzl1cFAAAAAASAAACgAAAAEAAAAKn6/UeYfKQnX74Esr+HPDsQAAAAqFEr8iOkVM4gcenw34c5WRQAAACCP+RO7b8XhLIwf5LSWE7GkGw7sA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2nxrebubX0OB9GUffPk6nwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAA0w83MvcZ+TjQ1qreBxz3AAAAAAASAAACgAAAAEAAAAJrMvZKJLUisspVgBoh4XiIQAAAA+pOZi3uV+gQQzsuusD15yhQAAAB43ETk5/3u1NwXoT5NMX5j4ux1uw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2nxrebubX0OB9GUffPk6nwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACdCTxj8eLaTaVAc0DV5f8UAAAAAASAAACgAAAAEAAAAOEhRXNhay9+mH2Guh4ehroQAAAASIoc3aMg35fvyu20K1bSGBQAAADpWb0GSavkLe9F9lZ8HMqLyO9QYQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2nxrebubX0OB9GUffPk6nwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAA76veWT4AMCFHhazcPqsKwAAAAAASAAACgAAAAEAAAAOZPB0+5wTRvct5gz7zLwe4QAAAAOiuZMV183wqRvww6aVDGtRQAAADElEI28LpUBsYJpfMZVi8NUt7BGQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -25608,7 +25608,7 @@
         <NodeLayout
           Size="150,42"
           Id="Package\Data Flow Task\OLE DB Source"
-          TopLeft="352,64" />
+          TopLeft="351,56" />
         <NodeLayout
           Size="171,42"
           Id="Package\Data Flow Task\OLE DB Destination"
@@ -25631,30 +25631,30 @@
           TopLeft="686,199" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
-          TopLeft="427,106">
+          TopLeft="426,98">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="70,93"
+              EndConnector="71,101"
               Start="0,0"
-              End="70,85.5">
+              End="71,93.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,42.5" />
+                    End="0,46.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,42.5"
-                    Point2="0,46.5"
-                    Point3="4,46.5" />
+                    Point1="0,46.5"
+                    Point2="0,50.5"
+                    Point3="4,50.5" />
                   <mssgle:LineSegment
-                    End="66,46.5" />
+                    End="67,50.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="66,46.5"
-                    Point2="70,46.5"
-                    Point3="70,50.5" />
+                    Point1="67,50.5"
+                    Point2="71,50.5"
+                    Point3="71,54.5" />
                   <mssgle:LineSegment
-                    End="70,85.5" />
+                    End="71,93.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
