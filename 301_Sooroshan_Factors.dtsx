@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{F5FEA39D-4065-4EAC-9155-FF809F1CF559}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{ED904247-5F3A-400A-A12B-F699C95188AB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2nxrebubX0OB9GUffPk6nwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADJtwq1E0wqTt38cMQD/dc9AAAAAASAAACgAAAAEAAAAKr3xy3lyWiA2jFKyHCGkaYQAAAAQ8SJ3G1H+dQcc9DeZOfwORQAAAB8k8KAUBwGpgUlvfbtboOWsA7OHg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2nxrebubX0OB9GUffPk6nwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAw2bXh8I5l6BMIdyegnfJPAAAAAASAAACgAAAAEAAAAJjaubKceGjRu9IlFi7M9TwQAAAAbaoDCWNrB8PGnbFQ3Q8iQBQAAAD8tMkMbV5q4Y1ktKyF2mtW9KhvgA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2nxrebubX0OB9GUffPk6nwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAA7qag8s5LX3kG9+i27AQmuAAAAAASAAACgAAAAEAAAAC9QwvY4oKVVkIC82kL3mBMQAAAAJHKRJJmYxIDOmyLxbff0txQAAADB0BVKcsIHdPfQRT7O6hV9WekPBQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2nxrebubX0OB9GUffPk6nwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACEELrL9Qmr8WaPgbjQnuVcAAAAAASAAACgAAAAEAAAAPcgREGcF28KRCok9RTHmG8QAAAAY8kfO+e+fh05tAN2KVyVWxQAAAAPlYqSJmxiUpsCANcqYyXcRn6EOA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -5680,37 +5680,37 @@
         <NodeLayout
           Size="151,42"
           Id="Package\Data Flow Task"
-          TopLeft="284.5,225.5" />
+          TopLeft="352.5,390.5" />
         <NodeLayout
           Size="163,42"
           Id="Package\Execute SQL Task"
-          TopLeft="289,112" />
+          TopLeft="363,183" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="370.5,154">
+          TopLeft="444.5,225">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-10.5,71.5"
+              EndConnector="-16.5,165.5"
               Start="0,0"
-              End="-10.5,64">
+              End="-16.5,158">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.75" />
+                    End="0,78.75" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,31.75"
-                    Point2="0,35.75"
-                    Point3="-4,35.75" />
+                    Point1="0,78.75"
+                    Point2="0,82.75"
+                    Point3="-4,82.75" />
                   <mssgle:LineSegment
-                    End="-6.5,35.75" />
+                    End="-12.5,82.75" />
                   <mssgle:CubicBezierSegment
-                    Point1="-6.5,35.75"
-                    Point2="-10.5,35.75"
-                    Point3="-10.5,39.75" />
+                    Point1="-12.5,82.75"
+                    Point2="-16.5,82.75"
+                    Point3="-16.5,86.75" />
                   <mssgle:LineSegment
-                    End="-10.5,64" />
+                    End="-16.5,158" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5773,14 +5773,6 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\OLE DB Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Data Flow Task\OLE DB Destination">
     <Properties>
       <Property>
@@ -5790,6 +5782,14 @@
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
