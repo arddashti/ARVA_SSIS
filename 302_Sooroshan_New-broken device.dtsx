@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{0870F0BD-FAC8-4E31-B203-52C824E1A3E9}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{836575CC-A444-4A15-A04E-E1D18CE0F989}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2nxrebubX0OB9GUffPk6nwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADj1ZYMWCAxDKQtJcPDJ7cMAAAAAASAAACgAAAAEAAAAIcwUUzbRdcB0CxWdbY1eyYQAAAA+508EZTkJfMgIJevo0LUnBQAAACN46UR46TfW1oPWVaY5YnkGr78wQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2nxrebubX0OB9GUffPk6nwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAB5dTMuu3UguHJyetKuqfFEAAAAAASAAACgAAAAEAAAAKwg7NOOLTwFzToFbH7cJ+AQAAAAkXxQ/hyka/ilUffwPHEG7xQAAABJsmrQGLq5V6083pONfgntjYhfgA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2nxrebubX0OB9GUffPk6nwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADFae8pxdagYF84sBbC+UjWAAAAAASAAACgAAAAEAAAAPLGYaVWykSJD4ylMnS77u8QAAAAQzlQ7wyOUEu8cYKnHY2b8BQAAAAOyWkLnhypW7He+9aD30j/5W7AHQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2nxrebubX0OB9GUffPk6nwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADowRUsnUGVgB1TU0DxiQQFAAAAAASAAACgAAAAEAAAAL1+YyaOGgDy6R+kagUv5YwQAAAAuTBMGefEDN9rH2QrmxdYhxQAAAAmui5giGffnlPKb87VO4ByGLJuPA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -25556,7 +25556,7 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="151,57"
+          Size="151,42"
           Id="Package\Data Flow Task"
           TopLeft="424.5,197.5" />
         <NodeLayout
