@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{CF413CB1-F52A-47D3-92D4-27CDC5192617}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{DC33C5DE-5B50-4245-98BE-D2F0F681CD2D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
