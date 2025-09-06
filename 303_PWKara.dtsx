@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{6770DCC0-9B7C-4634-BADD-C606FA35EF95}">
+  DTS:VersionBuild="6"
+  DTS:VersionGUID="{61EE04AB-D1B2-4CAE-97ED-4BD3027C29F7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqx7ua2Ar0q0/PJTxKhN9QAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABsuZLOKGyUV0Ceh47x3pXMAAAAAASAAACgAAAAEAAAABAoLhvpaaeka/KObI5RQLQQAAAAn3BLUkH56QyVShoiaXKjhhQAAAC3zScZNpSwuQQctEU6rNqn13nj7w</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqx7ua2Ar0q0/PJTxKhN9QAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADeqgHDQTlovA1daNs7oe6KAAAAAASAAACgAAAAEAAAAKNynO+kSLbVaIURq2aDxvUQAAAA8C255t5JyY7UGFsGyCTyahQAAACFcOs9YDHVYSAC7YRB6kUau2xYJg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqx7ua2Ar0q0/PJTxKhN9QAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACUORFjvaHK2Etg+gTb2+qFAAAAAASAAACgAAAAEAAAACn7/QjncjLgtsdywjaOAaMQAAAAhTVW1JIFPqC/FFn0nv1U2BQAAAAAF1XltXhUhxNB+dfMPFL1X82z+g</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqx7ua2Ar0q0/PJTxKhN9QAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAB2BZ+urx6o0jxlDu8ctmchAAAAAASAAACgAAAAEAAAAJKpynXZSHSxq0hAeAXOB5cQAAAA3R99cipH6eVOdL7as+51TRQAAAAM8OTyJrgHqbNpc8svQDE7dM2Now</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -460,7 +460,7 @@
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SectionTitle]"
                       dataType="wstr"
-                      length="50"
+                      length="100"
                       name="SectionTitle" />
                   </externalMetadataColumns>
                 </input>
