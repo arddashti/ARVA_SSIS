@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{9FA9D4EC-CE08-4E07-B304-19F822379644}">
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{6770DCC0-9B7C-4634-BADD-C606FA35EF95}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqx7ua2Ar0q0/PJTxKhN9QAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACQMZ1OqgdVOtKAZVSsnIpyAAAAAASAAACgAAAAEAAAAKcNyrFBagkXwj0FWt5PeLMQAAAAw+TYFQmJaKYQCwAJ5va8jhQAAACB4QDq/eqYzQEPfe7v5UoCCttyVQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqx7ua2Ar0q0/PJTxKhN9QAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABsuZLOKGyUV0Ceh47x3pXMAAAAAASAAACgAAAAEAAAABAoLhvpaaeka/KObI5RQLQQAAAAn3BLUkH56QyVShoiaXKjhhQAAAC3zScZNpSwuQQctEU6rNqn13nj7w</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqx7ua2Ar0q0/PJTxKhN9QAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAD5nAt2mUsdZjQl6BRVuTvUAAAAAASAAACgAAAAEAAAAAnGo6QHrQkhVQ7VZGNrzRgQAAAAgZ2ySKA5lJIeoCRChLFnHRQAAADzv4aBhZeuwN+8xED6WbKGqWdtxg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqx7ua2Ar0q0/PJTxKhN9QAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACUORFjvaHK2Etg+gTb2+qFAAAAAASAAACgAAAAEAAAACn7/QjncjLgtsdywjaOAaMQAAAAhTVW1JIFPqC/FFn0nv1U2BQAAAAAF1XltXhUhxNB+dfMPFL1X82z+g</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -83,7 +83,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[PW_Kara]</property>
+                  name="OpenRowset">[dbo].[PW_Kara]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -323,6 +323,13 @@
                       cachedName="EmpTypeTitle"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[EmpTypeTitle]"
                       lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[EmpTypeTitle]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[SectionTitle]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="SectionTitle"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SectionTitle]"
+                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[SectionTitle]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -450,6 +457,11 @@
                       dataType="wstr"
                       length="100"
                       name="EmpTypeTitle" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SectionTitle]"
+                      dataType="wstr"
+                      length="50"
+                      name="SectionTitle" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -506,7 +518,7 @@
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select d.Id , d.Emp_No , d.Date, d.DayAbsentState , d.Shift_No , d.Mor_Mam , d.Card1,
        d.Card2 , d.Card3, d.Card4 , d.Card5,d.Card6,d.Holiday_w,d.Shabkari,d.Total_W,
 	   d.TimeHozor,d.Ezafe1,d.Ezafe2,d.Prev_Ez,d.Prev_Ez2,d.After_Ez,d.After_Ez2,
-	         e.NameFamily, e.Emp_Date,e.End_Date,e.Gender , e.IsCut ,e.EmpTypeTitle, e.GradeTitle, e.PositionTitle			
+	         e.NameFamily, e.Emp_Date,e.End_Date,e.Gender , e.IsCut ,e.EmpTypeTitle, e.GradeTitle, e.PositionTitle	, e.SectionTitle		
  from [Kara].[dbo].[DailyWork] d
     left join  kara_emp_vwEmployeeCurrentStateSummaryInformation  e 
 	 on d.Emp_No = e.Emp_No</property>
@@ -819,6 +831,16 @@
                       lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[EmpTypeTitle]"
                       name="EmpTypeTitle"
                       truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[SectionTitle]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[SectionTitle]"
+                      length="100"
+                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[SectionTitle]"
+                      name="SectionTitle"
+                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -946,6 +968,11 @@
                       dataType="wstr"
                       length="100"
                       name="EmpTypeTitle" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[SectionTitle]"
+                      dataType="wstr"
+                      length="100"
+                      name="SectionTitle" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -1108,6 +1135,12 @@
                       lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[PositionTitle]"
                       name="PositionTitle" />
                     <outputColumn
+                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[SectionTitle]"
+                      dataType="wstr"
+                      length="100"
+                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[SectionTitle]"
+                      name="SectionTitle" />
+                    <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
                       lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
@@ -1218,12 +1251,12 @@
           Id="Package\Data Flow Task\OLE DB Source"
           TopLeft="489,119" />
         <NodeLayout
-          Size="171,42"
+          Size="206,42"
           Id="Package\Data Flow Task\OLE DB Destination"
-          TopLeft="473,284" />
+          TopLeft="463,284" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
-          TopLeft="561.25,161">
+          TopLeft="565,161">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1247,14 +1280,6 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\OLE DB Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Data Flow Task\OLE DB Destination">
     <Properties>
       <Property>
@@ -1264,6 +1289,14 @@
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
