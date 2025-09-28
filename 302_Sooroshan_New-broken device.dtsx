@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="10"
-  DTS:VersionGUID="{3C4FB4B4-AE87-4319-9DB1-D5A3D4328BE8}">
+  DTS:VersionBuild="11"
+  DTS:VersionGUID="{D115BA13-9E0C-4A18-BADB-3F441B97A12A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8OyNH+s5n0O1X9EChM/8FwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAyWVQquC3nZY5Ptk2+i4HRAAAAAASAAACgAAAAEAAAAHAznVpQ0Xv84b2IqAXkSPcQAAAAiRDx1GCm7hUwIr73uczdgBQAAADmCk6d9dT6NFpvk90yVcQZ+dbFkw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8OyNH+s5n0O1X9EChM/8FwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACcRT7tE0cE4ovDsw3XPKPuAAAAAASAAACgAAAAEAAAAJutN28+6+FlQsN5ogvPJOEQAAAAoVRVYdPS6LkDM0cbDWVWwhQAAABzxds8ptEeE1NggcRUcHwHXX+2MQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8OyNH+s5n0O1X9EChM/8FwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAzilBQXiMtUHfnQpZkyeo/AAAAAASAAACgAAAAEAAAALE3Gy3nIS/3olJRSZLJJvYQAAAAdUnRirplC0QWtYeTDiwVphQAAADBD9aWYp7JALDhXKw/wLvOzrWseg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8OyNH+s5n0O1X9EChM/8FwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADJerillfiEPWsfrRjMmN0AAAAAAASAAACgAAAAEAAAABGWcUZ8k8+f4gKw/qBPao4QAAAAfpdkIPtEahCLw5XtrvFISxQAAADmTRSGKhlGn/wG+quSyUBf0WD5TQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -79,7 +79,7 @@
                   dataType="System.Int32"
                   description="Specifies the type of join to perform."
                   name="JoinType"
-                  typeConverter="JoinType">2</property>
+                  typeConverter="JoinType">0</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the number of columns in the ordering key."
@@ -16425,7 +16425,7 @@ ORDER BY cncode_u ASC;</property>
         <NodeLayout
           Size="150,42"
           Id="Package\Data Flow Task\OLE DB Source"
-          TopLeft="412,52" />
+          TopLeft="412,43" />
         <NodeLayout
           Size="159,42"
           Id="Package\Data Flow Task\OLE DB Source 1"
@@ -16436,30 +16436,30 @@ ORDER BY cncode_u ASC;</property>
           TopLeft="562,303" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
-          TopLeft="487,94">
+          TopLeft="487,85">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="119.666666666667,209"
+              EndConnector="119.666666666667,218"
               Start="0,0"
-              End="119.666666666667,201.5">
+              End="119.666666666667,210.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,119.87537993921" />
+                    End="0,125.209726443769" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,119.87537993921"
-                    Point2="0,123.87537993921"
-                    Point3="4,123.87537993921" />
+                    Point1="0,125.209726443769"
+                    Point2="0,129.209726443769"
+                    Point3="4,129.209726443769" />
                   <mssgle:LineSegment
-                    End="115.666666666667,123.87537993921" />
+                    End="115.666666666667,129.209726443769" />
                   <mssgle:CubicBezierSegment
-                    Point1="115.666666666667,123.87537993921"
-                    Point2="119.666666666667,123.87537993921"
-                    Point3="119.666666666667,127.87537993921" />
+                    Point1="115.666666666667,129.209726443769"
+                    Point2="119.666666666667,129.209726443769"
+                    Point3="119.666666666667,133.209726443769" />
                   <mssgle:LineSegment
-                    End="119.666666666667,201.5" />
+                    End="119.666666666667,210.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16505,33 +16505,21 @@ ORDER BY cncode_u ASC;</property>
         <NodeLayout
           Size="180,42"
           Id="Package\Data Flow Task\OLE DB Destination 1"
-          TopLeft="529,427" />
+          TopLeft="543,430" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Merge Join Output]"
-          TopLeft="627,345">
+          TopLeft="630,345">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-8,82"
+              EndConnector="0,85"
               Start="0,0"
-              End="-8,74.5">
+              End="0,77.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,37" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,37"
-                    Point2="0,41"
-                    Point3="-4,41" />
-                  <mssgle:LineSegment
-                    End="-4,41" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-4,41"
-                    Point2="-8,41"
-                    Point3="-8,45" />
-                  <mssgle:LineSegment
-                    End="-8,74.5" />
+                    End="0,77.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
