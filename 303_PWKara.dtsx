@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{92829B4A-25DE-48A1-87AE-AFAFB2FB2229}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{88D9781B-ED73-499A-8B32-75A79005273F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -25,11 +25,11 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=192.168.1.123;User ID=BI;Initial Catalog=Kara;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{86313648-D1B5-45FC-8737-7DD7963FCAFA}192.168.1.123.Kara.BI;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=192.168.1.123;User ID=BI;Initial Catalog=Kara;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package1-{86313648-D1B5-45FC-8737-7DD7963FCAFA}192.168.1.123.Kara.BI;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8OyNH+s5n0O1X9EChM/8FwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABKTTPDcMOtVliXloFT977kAAAAAASAAACgAAAAEAAAAK6U/mJZ87o6H3/rJdyHz5EQAAAA+8kXgM1c0WNwIY/YmmhWyBQAAAB2xPm1YuWBPVhuPbeWYWF15CfxFQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+glZuLftnUSXcj4XuGKHYgAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADL/MxFKjyAM3Uw0PcJXqYcAAAAAASAAACgAAAAEAAAAH9lM7sAMQlicdXgl4mskSQQAAAAr/W9z27ipoVnbemVd5n+RRQAAAD4SGqWwzpaUIjgPhfa8DZug1+zmw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,11 +42,11 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=192.168.1.28;User ID=sa;Initial Catalog=ARVA_BI;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{746CA3EA-13D3-4C32-BD93-7A7F11623C4E}192.168.1.28.ARVA_BI.sa;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=192.168.1.28;User ID=sa;Initial Catalog=ARVA_BI;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package1-{746CA3EA-13D3-4C32-BD93-7A7F11623C4E}192.168.1.28.ARVA_BI.sa;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8OyNH+s5n0O1X9EChM/8FwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADj9D/AwFs4+NMs59AG6ESRAAAAAASAAACgAAAAEAAAAAevk22ZGdLJDm5nhwRED5oQAAAAasN6/R8tM+RtnMj4s2rLARQAAABLvZC6qPnt/v8q6p1ZhI+BTqG7Sg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+glZuLftnUSXcj4XuGKHYgAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAfWY5JAqFMM6L2wac6zcEVAAAAAASAAACgAAAAEAAAAFw0uEe6KZ04IKjm2n3rZvEQAAAAH9dUevGgr/3GZ0UPq2IUQxQAAAD2UGpPU7VBefLVzn+egLG+VOvncg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>

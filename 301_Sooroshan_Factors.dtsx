@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{577613B8-DE19-4ECA-B03E-BF3849C6024C}">
+  DTS:VersionBuild="6"
+  DTS:VersionGUID="{CAE9E7FA-9DC6-4EAC-A30B-623F265C0059}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -25,11 +25,11 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=192.168.1.23;User ID=powerbi;Initial Catalog=sorooshan;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{CE048CA7-63F2-422C-B5CB-FFE564D0A763}192.168.1.23.sorooshan.powerbi;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=192.168.1.23;User ID=powerbi;Initial Catalog=sorooshan;Provider=SQLNCLI11.1;Auto Translate=False;Application Name=SSIS-Package1-{CE048CA7-63F2-422C-B5CB-FFE564D0A763}192.168.1.23.sorooshan.powerbi;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqx7ua2Ar0q0/PJTxKhN9QAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAMTnu2na0hIp7IVkCddomYAAAAAASAAACgAAAAEAAAAHDwpsI7C/RSoVkeMSqHLLkQAAAAB10us+nOqTRXKKrf7sfHbxQAAAAWoT2vaiQTsfOgBDsEkupaNbOkpA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+glZuLftnUSXcj4XuGKHYgAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACu3/JWUWsW/WKZHR/UOtVDAAAAAASAAACgAAAAEAAAAMs4oo8rMLBBU8DLq6PtONgQAAAApNBEzw8knmBms0BR0/byQhQAAAB8FLyQs5ZcrWf1zg9IeMcMebhZ6w</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,11 +42,11 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=192.168.1.28;User ID=sa;Initial Catalog=ARVA_BI;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{59C21CD8-71F1-4B82-9A56-19EB95324986}192.168.1.28.ARVA_BI.sa;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=192.168.1.28;User ID=sa;Initial Catalog=ARVA_BI;Provider=SQLNCLI11.1;Auto Translate=False;Application Name=SSIS-Package1-{59C21CD8-71F1-4B82-9A56-19EB95324986}192.168.1.28.ARVA_BI.sa;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqx7ua2Ar0q0/PJTxKhN9QAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABxLfNjjmxYRCs436snZq3SAAAAAASAAACgAAAAEAAAAJ0U9Bx3ciEP61xvbFXkrz8QAAAAxjoyJXPoqZ/WbzvNPbp51BQAAAAKOVBUxvdMP7B2oFYzayREDm+O5Q</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+glZuLftnUSXcj4XuGKHYgAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAA7uTEnFA5OwBTzktBZJeyXAAAAAASAAACgAAAAEAAAACu8SFJY1UeMsXn11dY0mcQQAAAALurACA092BSw3umLp5EM/RQAAAACb0XCj16bdSclAfFVni2cR0oy+g</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -3784,6 +3784,28 @@
                       name="collectperiority"
                       precision="1"
                       truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[currejebcode]"
+                      codePage="1256"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[currejebcode]"
+                      length="10"
+                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[currejebcode]"
+                      name="currejebcode"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[pendrejebcode]"
+                      codePage="1256"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[pendrejebcode]"
+                      length="10"
+                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[pendrejebcode]"
+                      name="pendrejebcode"
+                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -4619,6 +4641,18 @@
                       dataType="numeric"
                       name="collectperiority"
                       precision="1" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[currejebcode]"
+                      codePage="1256"
+                      dataType="str"
+                      length="10"
+                      name="currejebcode" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[pendrejebcode]"
+                      codePage="1256"
+                      dataType="str"
+                      length="10"
+                      name="pendrejebcode" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -5609,6 +5643,20 @@
                       lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[collectperiority]"
                       name="collectperiority"
                       precision="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[currejebcode]"
+                      codePage="1256"
+                      dataType="str"
+                      length="10"
+                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[currejebcode]"
+                      name="currejebcode" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[pendrejebcode]"
+                      codePage="1256"
+                      dataType="str"
+                      length="10"
+                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[pendrejebcode]"
+                      name="pendrejebcode" />
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       dataType="i4"

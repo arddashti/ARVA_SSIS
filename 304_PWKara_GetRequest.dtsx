@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{A72C6937-CEEC-4FAB-93B5-CE61822FD0DC}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{FDE8031E-EFD3-4BCF-B1F6-0D2081010A8D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -25,11 +25,11 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=192.168.1.123;User ID=BI;Initial Catalog=Kara;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{F11BC855-E729-48E1-B1AB-9102C574EAA8}192.168.1.123.Kara.BI;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=192.168.1.123;User ID=BI;Initial Catalog=Kara;Provider=SQLNCLI11.1;Auto Translate=False;Application Name=SSIS-Package1-{F11BC855-E729-48E1-B1AB-9102C574EAA8}192.168.1.123.Kara.BI;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAaEp0kpweXEGYeDonsyBaswAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACmnGSA0/GNKstFABEnKiYNAAAAAASAAACgAAAAEAAAAMLg4p8HIfvuEeq2eMd7ZWAQAAAAKrht+wSw0GTHCwXlilM+fBQAAABi8YRPvAO2Pu3AIHMvEymK1Qi4cQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+glZuLftnUSXcj4XuGKHYgAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABTckHp0RprTv27KyHIwjycAAAAAASAAACgAAAAEAAAAJ4qmfK/LQhTWqvWrxtpIwkQAAAAi/xbU1eZwY0aid09t+xAyBQAAABkqeUZyMs6xMN2sQ7I3UrGT78bsQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,11 +42,11 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=192.168.1.28;User ID=sa;Initial Catalog=ARVA_BI;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{57C75074-A305-41C8-9AAC-AB2AE441A6E7}192.168.1.28.ARVA_BI.sa;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=192.168.1.28;User ID=sa;Initial Catalog=ARVA_BI;Provider=SQLNCLI11.1;Auto Translate=False;Application Name=SSIS-Package1-{57C75074-A305-41C8-9AAC-AB2AE441A6E7}192.168.1.28.ARVA_BI.sa;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAaEp0kpweXEGYeDonsyBaswAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACxuZysohfzopSQDFFdbvKAAAAAAASAAACgAAAAEAAAAEIwaxrpAUuJ/ODVkRbIWxYQAAAAxHszrQMByOGSlIfxb9bRrhQAAADMBflnR/Ds2mQAwDSI+avx8yLhhA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+glZuLftnUSXcj4XuGKHYgAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAyGEaKUTYFStz934n3L3LRAAAAAASAAACgAAAAEAAAAKPVn9cYAQBwLUFsZPrILDAQAAAA7kPVQEDYXpWnfImmQ9EqxRQAAAArdygm3o2ruB/ZPWqbwR7XpxhhTQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -932,14 +932,6 @@ FROM Kara.dbo.WF_GetRequest_VI;</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\OLE DB Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Data Flow Task\OLE DB Destination">
     <Properties>
       <Property>
@@ -949,6 +941,14 @@ FROM Kara.dbo.WF_GetRequest_VI;</property>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">POWERBI</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+glZuLftnUSXcj4XuGKHYgAAAAACAAAAAAADZgAAwAAAABAAAAC7ZACIktArCqmQWso5/TZdAAAAAASAAACgAAAAEAAAABdubHPRDNK5Xd+nBgrq0TuIAAAAJ+P2lDh+4bZ3s9pu1RtpqKRe3SD/dst7qAb86zSOt3lk/mg+R9T4PXzAPId3MNPz5dwTzFg58JjkdwG6hriVdmBZ7TFX+dHJei/sueTKnf8nFZVqkfWLgEL5sftDFO/j4btKwdpnZ5QJUtKW5OcdqDc2Q2+L/6M8ojkHeLOOad7hj64Lo+WNHRQAAAA9EhT2JPhEIRU2s9Xna0AnH7Vt1w==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+glZuLftnUSXcj4XuGKHYgAAAAACAAAAAAADZgAAwAAAABAAAABXBnwslSpKk1I6AV48JBcsAAAAAASAAACgAAAAEAAAAD7/Kz/OJqfesd40kL+d3a2IAAAAoeBh6421tf3vZjRrIxc/89nl2hra8aXLq2/t0k20oX4k36Z0XOdQwImVN2KNEpMUGW1Jy81qwZeqQZqZoSR+gGEpXfy2C9mWSwRxXuuE0T0ZI7tUzTMZIK5uFmYeey3suGijx1y+K7WkGlFux7cBMduhdPNwwuBfIgaS9EskUUmn44VNb2xnZBQAAAD+9B6XtPmcfQWMrTAsbv0cXFUiHA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -427,10 +427,10 @@
                 <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">5</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">6</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{577613B8-DE19-4ECA-B03E-BF3849C6024C}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{CAE9E7FA-9DC6-4EAC-A30B-623F265C0059}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -463,7 +463,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=192.168.1.23;User ID=powerbi;Initial Catalog=sorooshan;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{CE048CA7-63F2-422C-B5CB-FFE564D0A763}192.168.1.23.sorooshan.powerbi;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=192.168.1.23;User ID=powerbi;Initial Catalog=sorooshan;Provider=SQLNCLI11.1;Auto Translate=False;Application Name=SSIS-Package1-{CE048CA7-63F2-422C-B5CB-FFE564D0A763}192.168.1.23.sorooshan.powerbi;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -612,7 +612,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=192.168.1.28;User ID=sa;Initial Catalog=ARVA_BI;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{59C21CD8-71F1-4B82-9A56-19EB95324986}192.168.1.28.ARVA_BI.sa;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=192.168.1.28;User ID=sa;Initial Catalog=ARVA_BI;Provider=SQLNCLI11.1;Auto Translate=False;Application Name=SSIS-Package1-{59C21CD8-71F1-4B82-9A56-19EB95324986}192.168.1.28.ARVA_BI.sa;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -743,10 +743,10 @@
                 <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">11</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">12</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{D115BA13-9E0C-4A18-BADB-3F441B97A12A}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{D1BE1B64-0AA0-4007-B51C-9D25CFDFD3E6}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -779,7 +779,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=192.168.1.23;User ID=powerbi;Initial Catalog=sorooshan;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{788BDA87-CA1D-4902-AD62-E41111262BFA}192.168.1.23.sorooshan.powerbi;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=192.168.1.23;User ID=powerbi;Initial Catalog=sorooshan;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package1-{788BDA87-CA1D-4902-AD62-E41111262BFA}192.168.1.23.sorooshan.powerbi;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -928,7 +928,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=192.168.1.28;User ID=sa;Initial Catalog=ARVA_BI;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{6E085FDF-FBB7-4474-AF34-4E35B183B0AB}192.168.1.28.ARVA_BI.sa;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=192.168.1.28;User ID=sa;Initial Catalog=ARVA_BI;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package1-{6E085FDF-FBB7-4474-AF34-4E35B183B0AB}192.168.1.28.ARVA_BI.sa;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1059,10 +1059,10 @@
                 <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">7</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{92829B4A-25DE-48A1-87AE-AFAFB2FB2229}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{88D9781B-ED73-499A-8B32-75A79005273F}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -1095,7 +1095,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=192.168.1.123;User ID=BI;Initial Catalog=Kara;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{86313648-D1B5-45FC-8737-7DD7963FCAFA}192.168.1.123.Kara.BI;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=192.168.1.123;User ID=BI;Initial Catalog=Kara;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package1-{86313648-D1B5-45FC-8737-7DD7963FCAFA}192.168.1.123.Kara.BI;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1244,7 +1244,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=192.168.1.28;User ID=sa;Initial Catalog=ARVA_BI;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{746CA3EA-13D3-4C32-BD93-7A7F11623C4E}192.168.1.28.ARVA_BI.sa;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=192.168.1.28;User ID=sa;Initial Catalog=ARVA_BI;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package1-{746CA3EA-13D3-4C32-BD93-7A7F11623C4E}192.168.1.28.ARVA_BI.sa;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1392,10 +1392,10 @@
                 <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">7</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{7C4432A8-F855-4E74-BC08-D678F76F38DD}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{FDE8031E-EFD3-4BCF-B1F6-0D2081010A8D}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -1428,7 +1428,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=192.168.1.123;User ID=BI;Initial Catalog=Kara;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{F11BC855-E729-48E1-B1AB-9102C574EAA8}192.168.1.123.Kara.BI;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=192.168.1.123;User ID=BI;Initial Catalog=Kara;Provider=SQLNCLI11.1;Auto Translate=False;Application Name=SSIS-Package1-{F11BC855-E729-48E1-B1AB-9102C574EAA8}192.168.1.123.Kara.BI;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1577,7 +1577,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=192.168.1.28;User ID=sa;Initial Catalog=ARVA_BI;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{57C75074-A305-41C8-9AAC-AB2AE441A6E7}192.168.1.28.ARVA_BI.sa;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=192.168.1.28;User ID=sa;Initial Catalog=ARVA_BI;Provider=SQLNCLI11.1;Auto Translate=False;Application Name=SSIS-Package1-{57C75074-A305-41C8-9AAC-AB2AE441A6E7}192.168.1.28.ARVA_BI.sa;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>

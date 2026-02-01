@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="11"
-  DTS:VersionGUID="{D115BA13-9E0C-4A18-BADB-3F441B97A12A}">
+  DTS:VersionBuild="12"
+  DTS:VersionGUID="{D1BE1B64-0AA0-4007-B51C-9D25CFDFD3E6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -25,11 +25,11 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=192.168.1.23;User ID=powerbi;Initial Catalog=sorooshan;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{788BDA87-CA1D-4902-AD62-E41111262BFA}192.168.1.23.sorooshan.powerbi;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=192.168.1.23;User ID=powerbi;Initial Catalog=sorooshan;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package1-{788BDA87-CA1D-4902-AD62-E41111262BFA}192.168.1.23.sorooshan.powerbi;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8OyNH+s5n0O1X9EChM/8FwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACcRT7tE0cE4ovDsw3XPKPuAAAAAASAAACgAAAAEAAAAJutN28+6+FlQsN5ogvPJOEQAAAAoVRVYdPS6LkDM0cbDWVWwhQAAABzxds8ptEeE1NggcRUcHwHXX+2MQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+glZuLftnUSXcj4XuGKHYgAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACK2KYXodzPv75h4hcr5NHqAAAAAASAAACgAAAAEAAAANqreyldNzqrlFQvqIlJIRcQAAAAvFXh/b9ukncT33mfCXTehBQAAAD2q5i+dP3NEeHFdTwXMK7rcQuavg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,11 +42,11 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=192.168.1.28;User ID=sa;Initial Catalog=ARVA_BI;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{6E085FDF-FBB7-4474-AF34-4E35B183B0AB}192.168.1.28.ARVA_BI.sa;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=192.168.1.28;User ID=sa;Initial Catalog=ARVA_BI;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package1-{6E085FDF-FBB7-4474-AF34-4E35B183B0AB}192.168.1.28.ARVA_BI.sa;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8OyNH+s5n0O1X9EChM/8FwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADJerillfiEPWsfrRjMmN0AAAAAAASAAACgAAAAEAAAABGWcUZ8k8+f4gKw/qBPao4QAAAAfpdkIPtEahCLw5XtrvFISxQAAADmTRSGKhlGn/wG+quSyUBf0WD5TQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+glZuLftnUSXcj4XuGKHYgAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAD1dXJlVBmFR0SYJBen1bpNAAAAAASAAACgAAAAEAAAAMDvuwsgrEskWGPx5VP5X1kQAAAA4vQHkPd+5E+4ejQZeMYXMRQAAABiQgjFHBfaVAyIpb8DnogV+wMKeQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -16317,12 +16317,12 @@ ORDER BY cncode_u ASC;</property>
               name="Merge Join Output"
               startId="Package\Data Flow Task\Merge Join.Outputs[Merge Join Output]" />
             <path
-              refId="Package\Data Flow Task.Paths[OLE DB Source Output1]"
+              refId="Package\Data Flow Task.Paths[OLE DB Source Output]"
               endId="Package\Data Flow Task\Merge Join.Inputs[Merge Join Right Input]"
               name="OLE DB Source Output"
               startId="Package\Data Flow Task\OLE DB Source 1.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Data Flow Task.Paths[OLE DB Source Output]"
+              refId="Package\Data Flow Task.Paths[OLE DB Source Output1]"
               endId="Package\Data Flow Task\Merge Join.Inputs[Merge Join Left Input]"
               name="OLE DB Source Output"
               startId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output]" />
@@ -16435,7 +16435,7 @@ ORDER BY cncode_u ASC;</property>
           Id="Package\Data Flow Task\Merge Join"
           TopLeft="562,303" />
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
+          Id="Package\Data Flow Task.Paths[OLE DB Source Output1]"
           TopLeft="487,85">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -16469,7 +16469,7 @@ ORDER BY cncode_u ASC;</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[OLE DB Source Output1]"
+          Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
           TopLeft="775.5,87">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -16532,7 +16532,7 @@ ORDER BY cncode_u ASC;</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\OLE DB Source">
+    design-time-name="Package\Data Flow Task\OLE DB Source 1">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -16540,7 +16540,7 @@ ORDER BY cncode_u ASC;</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\OLE DB Source 1">
+    design-time-name="Package\Data Flow Task\OLE DB Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
