@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">POWERBI</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+glZuLftnUSXcj4XuGKHYgAAAAACAAAAAAADZgAAwAAAABAAAABXBnwslSpKk1I6AV48JBcsAAAAAASAAACgAAAAEAAAAD7/Kz/OJqfesd40kL+d3a2IAAAAoeBh6421tf3vZjRrIxc/89nl2hra8aXLq2/t0k20oX4k36Z0XOdQwImVN2KNEpMUGW1Jy81qwZeqQZqZoSR+gGEpXfy2C9mWSwRxXuuE0T0ZI7tUzTMZIK5uFmYeey3suGijx1y+K7WkGlFux7cBMduhdPNwwuBfIgaS9EskUUmn44VNb2xnZBQAAAD+9B6XtPmcfQWMrTAsbv0cXFUiHA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+glZuLftnUSXcj4XuGKHYgAAAAACAAAAAAADZgAAwAAAABAAAACKhVaWvkqlLsk6te+TnRTPAAAAAASAAACgAAAAEAAAAKJEQknpclWPdZ93UsSwdkSIAAAAQu7Qr0/0msKONwHdMH2eC5054Vzl72UK4UiOUP6mJRrYUHoNHRbJv4BR2AF/FK9a0/ewDPFn91e9LZkGPCQjKfYrCsmXc+FGFpZ+H9QRnP++WJezuW3dcUEZLXBj2sJS4kcrwDz3X9MHUzrrckzjKQeSeQj4XX0JHLfQz5m1jUAGrLbihbGp2RQAAAAwj0lN5iRdxbG4PBfapEtrRZOeSQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -59,6 +59,7 @@
           <SSIS:Package SSIS:Name="Package1.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Package2.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="22_branch_supervisors_daily_report.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="23_call_log_to_sheet.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -2045,6 +2046,23 @@
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{29A1709F-B644-46F7-B5CA-05927F99E007}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="23_call_log_to_sheet.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{78D34920-F41C-4CD1-B9F5-3FBD7423922D}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">23_call_log_to_sheet</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{FE93C6DE-1D84-4D49-941D-6D3A832F1BE6}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
